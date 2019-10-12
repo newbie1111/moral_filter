@@ -1,0 +1,17 @@
+{
+    "name": "morals Filter Extension",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "社会性フィルターを作りたかった残滓",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://tweetdeck.twitter.com/*",
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
